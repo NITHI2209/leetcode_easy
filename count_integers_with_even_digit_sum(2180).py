@@ -7,11 +7,11 @@
 # Explanation:
 # The only integers less than or equal to 4 whose digit sums are even are 2 and 4. 
 #code:
-# class Solution:
-    # def countEven(self, num: int) -> int:
-    #     count = 0
-    #     for i in range(1,num+1):
-    #         digits = list(map(int,str(i)))
-    #         if sum(digits)%2 == 0:
-    #             count += 1 
-    #     return count
+class Solution:
+    def countEven(self, num: int) -> int:
+        count = 0
+        for i in range(1,num+1):
+            digits = list(map(int,str(i)))
+            if sum(digits)%2 == 0:
+                count += 1 
+        return count
