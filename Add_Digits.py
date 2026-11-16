@@ -7,7 +7,7 @@
 # 38 --> 3 + 8 --> 11
 # 11 --> 1 + 1 --> 2 
 # Since 2 has only one digit, return it.
-#code:
+#code
 class Solution:
     def addDigits(self, num: int) -> int:
         while num >=10:
